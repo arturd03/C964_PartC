@@ -20,4 +20,6 @@ def main(model,feature_extraction):
         # Call the detect_spam function to check if the message is spam
         is_spam = detect_spam(message,model,feature_extraction)
 
+if __name__ == "__main__":
+    main()
 
